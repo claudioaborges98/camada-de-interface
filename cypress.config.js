@@ -17,7 +17,7 @@ module.exports = defineConfig({
     watchForFileChanges: false,
     experimentalModifyObstructiveThirdPartyCode: true,
     pageLoadTimeout: 60000,
-    specPattern: "e2e/automation-exercise-modules.cy.js",
+    specPattern: "cypress/e2e/**/*.cy.js",
 
     setupNodeEvents(on, config) {
       require("cypress-mochawesome-reporter/plugin")(on);
