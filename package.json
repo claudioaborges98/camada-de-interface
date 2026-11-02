@@ -13,7 +13,6 @@
   "devDependencies": {
     "@faker-js/faker": "^10.6.0",
     "cypress": "^16.2.1",
-    "mochawesome": "^8.1.1",
-    "mochawesome-report-generator": "^6.3.2"
+    "cypress-mochawesome-reporter": "^5.0.0"
   }
 }
